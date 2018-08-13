@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'FiraSans';
+  src: local('FiraSans Regular'), local('FiraSans-Regular'), url('../fonts/FiraSans/FiraSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FiraSans';
+  src: local('Source Sans Italic'), local('FiraSans-Italic'), url('../fonts/FiraSans/FiraSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'FiraSans';
+  src: local('FiraSans Bold'), local('FiraSans-Bold'), url('../fonts/FiraSans/FiraSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+$fonts1: 'FiraSans', Arial, Helvetica, sans-serif;

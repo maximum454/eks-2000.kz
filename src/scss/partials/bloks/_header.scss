@@ -51,6 +51,7 @@
 	h4{
 		color: #fff;
 		font-size: 46px;
+		font-weight: 300;
 		text-transform: uppercase;
 		margin: 0;
 	}
@@ -72,13 +73,14 @@
 		text-transform: uppercase;
 		text-decoration: none;
 		text-align: center;
-		box-shadow: 0 0 1px 1px rgba(#f49c19, .6);
+		box-shadow: 0 24px 50px -8px rgba(244,156,25,.5);
 		&.color{
 			background: #1580c2;
 			background: -moz-linear-gradient(left, #1580c2 0%, #35b2ff 100%);
 			background: -webkit-linear-gradient(left, #1580c2 0%,#35b2ff 100%);
 			background: linear-gradient(to right, #1580c2 0%,#35b2ff 100%);
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1580c2', endColorstr='#35b2ff',GradientType=1 );
+			box-shadow: 0 24px 50px -8px rgba(#35b2ff,.5);
 		}
 	}
 	&__bottom{

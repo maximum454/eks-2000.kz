@@ -1,0 +1,84 @@
+.upline{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	padding: 30px 20px;
+	z-index: 100;
+	&__inner{
+		width: 1110px;
+		margin: 0 auto 30px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__logo{
+		width: 230px;
+	}
+	&__adress{
+		position: relative;
+		padding-left: 40px;
+		color: #fff;
+		font-size: 14px;
+		display: block;
+		&:before{
+			content: '';
+			position: absolute;
+			top: -3px;
+			left: 0;
+			background-image: url("../img/location2.svg");
+			background-repeat: no-repeat;
+			background-size: 100%;
+			background-position: center;
+			width: 25px;
+			height: 25px;
+			border-radius: 50%;
+		}
+	}
+	&__mail{
+		position: relative;
+		padding-left: 40px;
+		color: #fff;
+		font-size: 14px;
+		display: block;
+		top: -8px;
+		&:before{
+			content: '';
+			position: absolute;
+			top: -3px;
+			left: 0;
+			background-image: url("../img/mail2.svg");
+			background-repeat: no-repeat;
+			background-size: 100%;
+			background-position: center;
+			width: 25px;
+			height: 25px;
+			border-radius: 50%;
+		}
+	}
+	&__phone{
+		position: relative;
+		padding-left: 40px;
+		color: #fff;
+		font-size: 14px;
+		display: block;
+		&:before{
+			content: '';
+			position: absolute;
+			top: -3px;
+			left: 0;
+			background-image: url("../img/phone2.svg");
+			background-repeat: no-repeat;
+			background-size: 100%;
+			background-position: center;
+			width: 25px;
+			height: 25px;
+			border-radius: 50%;
+		}
+		a{
+			color: inherit;
+			text-decoration: none;
+		}
+	}
+}

@@ -1,0 +1,28 @@
+.partners{
+	position: relative;
+	width: 100%;
+	margin-bottom: 60px;
+	&__inner{
+		width: 1140px;
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+	&__item{
+		display: block;
+		text-decoration: none;
+	}
+	h3{
+		color: #075391;
+		font-size: 24px;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	img{
+		margin: 0 auto;
+	}
+	.slick-track{
+		display: flex;
+		align-items: center;
+	}
+}

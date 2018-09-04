@@ -5,9 +5,12 @@
 @import "base/class";
 
 /*blocks vendors*/
-@import "vendors/bootstrap";
+@import "vendors/slick";
+@import "vendors/slick-theme";
 
-/*blocks dacha*/
+/*blocks eks2000*/
 @import "bloks/upline";
+@import "bloks/nav";
 @import "bloks/header";
+@import "bloks/partners";
 @import "bloks/banner";

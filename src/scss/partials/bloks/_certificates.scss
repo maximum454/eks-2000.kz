@@ -1,3 +1,25 @@
 .certificates{
-
+	position: relative;
+	margin-bottom: 60px;
+	&__h2{
+		color: #075391;
+		font-size: 24px;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+		margin: 60px 0 30px;
+	}
+	&__inner{
+		width: 1140px;
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+	&__item{
+		display: block;
+		width: 240px;
+		text-decoration: none;
+		img{
+			max-width: 100%;
+		}
+	}
 }

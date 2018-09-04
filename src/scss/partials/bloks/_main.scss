@@ -1,0 +1,14 @@
+.main{
+	&__header{
+		color: #333333;
+		font-size: 24px;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	&__inner{
+		width: 1140px;
+		padding: 0 15px;
+		margin: 0 auto;
+	}
+}

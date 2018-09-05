@@ -56,10 +56,27 @@
             <h4>ТОЛЬКО КАЧЕСТВЕННЫЕ РЕШЕНИЯ</h4>
             <div class="header__bottom">
                 <a class="header__btn" href="#">Каталог продукции</a>
-                <a class="header__btn color" href="#">Заказать звонок</a>
+                <a class="header__btn color" data-fancybox data-src="#feedback" href="#feedback">Заказать звонок</a>
             </div>
         </div>
     </header>
+    
+    <form id="feedback" class="feedback" action="" style="display: none;">
+        <h3 class="feedback__header">Мы перезвоним</h3>
+        <div class="feedback__item">
+            <label class="feedback__label" for="name">Ваше имя <sup>*</sup></label>
+            <input class="feedback__input" id="name" type="text" placeholder="Максим Владимирович" required>
+        </div>
+        <div class="feedback__item">
+            <label class="feedback__label" for="phone">Телефон<sup>*</sup></label>
+            <input class="feedback__input" id="phone" type="text" placeholder="+7 (747) 774 70 47" required>
+        </div>
+        <div class="feedback__item">
+            <label class="feedback__label" for="email">E-mail</label>
+            <input class="feedback__input" id="email" type="text" placeholder="maxim@mirum.kz" required>
+        </div>
+        <input class="feedback__btn colo" type="submit">
+    </form>
     <main class="main">
         <div class="partners">
             <div class="partners__inner">

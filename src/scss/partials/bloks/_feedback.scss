@@ -2,7 +2,6 @@
 	display: inline-block;
 	width: 100%;
 	max-width: 49%;
-	height: 100%;
 	padding: 30px;
 	background: #ed6d1a;
 	background: -moz-linear-gradient(left, #ed6d1a 0%, #f49c19 100%);
@@ -63,5 +62,8 @@
 			background: linear-gradient(to right, #1580c2 0%,#35b2ff 100%);
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1580c2', endColorstr='#35b2ff',GradientType=1 );
 		}
+	}
+	@include r(375){
+		max-width: 100%;
 	}
 }

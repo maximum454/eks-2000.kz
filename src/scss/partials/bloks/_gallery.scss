@@ -1,6 +1,8 @@
 .gallery{
+	width: 100%;
 	&__item{
-		width: 350px;
+		width: 100%;
+		max-width: 350px;
 		display: inline-block;
 		text-decoration: none;
 		margin-bottom: 20px;
@@ -10,6 +12,11 @@
 		}
 		img{
 			max-width: 100%;
+		}
+	}
+	@include r(375){
+		&__item{
+			margin-right: 0;
 		}
 	}
 }

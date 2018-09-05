@@ -2,13 +2,29 @@
 	position: relative;
 	margin-bottom: 60px;
 	&__item{
-		width: 350px;
+		width: 100%;
+		max-width: 350px;
 		display: inline-block;
 		text-decoration: none;
 		margin-bottom: 20px;
 		margin-right: 20px;
 		&:nth-child(3n){
 			margin-right: 0;
+		}
+	}
+	&__img{
+		img{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	@include r(375){
+		&__item{
+			margin-right: 0;
+		}
+		&__name{
+			font-size: 22px;
+			text-align: center;
 		}
 	}
 }

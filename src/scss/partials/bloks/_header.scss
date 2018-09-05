@@ -87,7 +87,37 @@
 		width: 100%;
 		margin-top: 60px;
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
+	}
+	@include r(375){
+		padding: 400px 20px 60px;
+		&__inner{
+			width: 100%;
+		}
+		h1{
+			color: #fff;
+			font-size: 40px;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin: 0 0 10px;
+		}
+		h2{
+			color: #F49C19;
+			font-size: 26px;
+			text-transform: uppercase;
+			margin: 0 0 10px;
+		}
+		h4{
+			color: #fff;
+			font-size: 24px;
+			font-weight: 300;
+			text-transform: uppercase;
+			margin: 0;
+		}
+		&__btn{
+			margin-bottom: 40px;
+		}
 	}
 }

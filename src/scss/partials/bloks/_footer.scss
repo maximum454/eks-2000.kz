@@ -7,15 +7,19 @@
 	background: linear-gradient(to right, #1580c2 0%,#35b2ff 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1580c2', endColorstr='#35b2ff',GradientType=1 );
 	&__inner{
-		width: 1140px;
+		width: 100%;
+		max-width: 1140px;
 		padding: 10px 15px;
 		margin: 0 auto;
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
 		justify-content: space-between;
-		flex-wrap: wrap;
 		color: #fff;
 		font-size: 14px;
 		font-weight: 500;
+	}
+	@include r(375){
+		text-align: center;
 	}
 }

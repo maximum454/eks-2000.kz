@@ -11,7 +11,8 @@
 		}
 	}
 	&__inner{
-		width: 1140px;
+		width: 100%;
+		max-width: 1140px;
 		height: 100%;
 		padding: 0 15px;
 		margin: 0 auto;
@@ -52,5 +53,18 @@
 		color: #fff;
 		font-size: 14px;
 		margin: 5px 0;
+	}
+	@include r(375){
+		&__item{
+			height: auto;
+		}
+		&__inner{
+			position: relative;
+			padding: 0;
+			height: 260px;
+		}
+		&__anons{
+			width: 100%;
+		}
 	}
 }
